@@ -18,7 +18,7 @@ public class EventListenerDemo implements EventListener {
      * @param eventObject
      */
     public void execute(EventObjectDemo eventObject) {
-        System.err.println("执行监听方法：" + eventObject.getSource());
 
+        System.out.println("执行监听方法：" + eventObject.getSource());
     }
 }
